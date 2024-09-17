@@ -7,8 +7,14 @@
     },
     {
         "Title": "Buy bread",
-        "Completed": false,
+        "Completed": true,
         "CreatedAt": "2024-09-17T23:08:51.6569628+05:30",
+        "CompletedAt": "2024-09-17T23:44:12.7692788+05:30"
+    },
+    {
+        "Title": "Prepare for exam",
+        "Completed": false,
+        "CreatedAt": "2024-09-17T23:43:35.6816041+05:30",
         "CompletedAt": null
     }
 ]

@@ -62,5 +62,6 @@ func (cf *cmdFlags) Execute (todos *Todos) {
 
 	default:
 		fmt.Println("Invalid command")
+		fmt.Println("Enter commands mentioned below:\ngo run ./ -list\t\t\t\t\t\t-- to view all items\ngo run ./ -add '<add_title>'\t\t\t\t-- to add item\ngo run ./ -edit '<item_number: new_title>'\t\t-- to edit item\ngo run ./ -toggle <item_number>\t\t\t\t--to toggle between item\ngo run ./ -delete <item_number>\t\t\t\t--to delete item")
 	}
 }
